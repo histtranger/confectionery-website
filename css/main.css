@@ -1,0 +1,125 @@
+html {
+  font-family: "Droid Sans", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ffc;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+header {
+  background-color: #42324c;
+  padding: 0;
+}
+
+h1 {
+  color: #ff9;
+  text-align: center;
+}
+
+.bannerp {
+  padding-top: 250px;
+  color: white;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+h2 {
+  color: #42324c;
+  text-align: center;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.candyleft {
+  max-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffc;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.yellow {
+  background: #ffc;
+}
+
+.yell {
+  color: #ffffe6;
+}
+
+.blue {
+  background-color: #42324c;
+}
+
+.white {
+  color: #fff;
+}
+
+.xs-1-3 {
+  width: 32.333%;
+  /* Couldn't fix the sizing issue... This is to make my nav bar li's be on the same line. */
+}
+
+.beau {
+  max-width: 250px;
+}
+
+thead {
+  display: none;
+}
+
+table {
+  max-width: 250px;
+}
+
+caption {
+  color: #00b3b3;
+  font-style: normal;
+  text-align: center;
+}
+
+span {
+  padding-right: 2em;
+}
+
+textarea {
+  width: 275px;
+}
+
+
+fieldset {
+  border: none;
+}
+
+button {
+  width: 150px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    float: left;
+  }
+}

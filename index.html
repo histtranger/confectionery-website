@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Beau's Bonbons</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+  <link  class="i-16" rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+</head>
+<body class="wrapper">
+  <header role="banner">
+    <div class="grid grid-middle">
+      <h1 class="unit pad-t xs-1 s-1 m-1-3">Beau's Bonbons</h1>
+      <nav class="xs-1 s-1 m-1-2" role="navigation">
+        <ul class="pad-b right pad-t">
+          <li class="unit mega gutter-half"><a href="#about">About Us</a></li>
+          <li class="unit mega gutter-half"><a href="#sweets">Sweets</a></li>
+          <li class="unit mega gutter-half"><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main role="main">
+    <!--
+    <div class="banner">
+      <p class="pad-t bannerp exa center push-0">The Largest Candy Assortment In Ottawa!</p>
+    </div>
+    !-->
+    <section>
+      <div class="yellow relative grid grid-middle">
+        <h2 id="about" class="pad-t exa unit xs-1">About Us</h2>
+        <img class="img-flex beau center m-1-2 l-1-2 island" src="images/beau.jpg" alt="" aria-describedat="Picture of Beau Sr.">
+        <p class="island aboutp xs-1 s-1 m-1-2 valign-middle unit">Established around 1985, Beau's Bonbons has been a go-to for people with sweet tooths for 31 years. Beau Sr. is a master when it comes to the art of candy making, and taught all he knows to his son, Beau Jr. who now runs the shop today. Beau Sr. always wanted to have a variety of sweet things for his customers to taste and experience, so he hand makes the same candy he did 31 years ago, as well as stocking everyone's favorite brands and candies in his store.</p>
+      </div>
+    </section>
+    <section>
+      <div class="blue white">
+        <h2 id="sweets" class="pad-t white exa">Sweets</h2>
+        <ul>
+          <li class="xs-1 s-1 m-1-2 l-1-4 unit left gutter">
+            <img class="img-flex" src="images/worm.jpg" alt="" aria-describedat="Gummy Candy offered at Beau's Bonbons">
+            <h3 class="pad-t giga">Gummy Candy</h3>
+            <p>Chewy, sometimes sweet and sometimes sour, but always a crowd pleaser! We offer a colorful array of some favorites like gummy worms, bears, fruit, and a whole lot more!</p>
+          </li>
+          <li class="xs-1 s-1 m-1-2 l-1-4 unit right gutter">
+            <img class="img-flex" src="images/smartie.jpg" alt="" aria-describedat="Brightly colored candy coated chocolate">
+            <h3 class="pad-t giga">Chocolate Stuff</h3>
+            <p>Candy coated, caramel filled, mint flavored, we've got it all! Beau Sr. and Beau Jr. prepare handmade chocolate treats, as well as stock all your favorite brands and snacks.</p>
+          </li>
+          <li class="xs-1 s-1 m-1-2 l-1-4 unit left gutter">
+            <img class="img-flex" src="images/jujube.jpg" alt="" aria-describedat="Jujube type candy that's very popular">
+            <h3 class="pad-t giga">Favorite Brands</h3>
+            <p>We offer your favorite brands ranging from Charleston Chew to Smarties to Warheads. We offer a wide variety of classic candy, a sure fire way to get a blast from the past.</p>
+          </li>
+          <li class="xs-1 s-1 m-1-2 l-1-4 pad-b unit gutter">
+            <img class="img-flex" src="images/sprinkle.jpg" alt="" aria-describedat="Colorful sugar sprinkles, mostly used for cakes">
+            <h3 class="pad-t giga">Homemade Products</h3>
+            <p>Fudge, taffy, caramel, chocolate, lollipops, and more! Beau Sr. and Beau Jr. and their team of skilled candy makers make homemade treats for you to take home everyday! Need a special order? Ask one of our employees and they will help you with all the preparations.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="yellow" role="contentinfo">
+    <h2 id="contact" class="pad-t exa">Contact Us</h2>
+    <div>
+      <table>
+        <caption>Store Hours</caption>
+        <thead>
+          <tr>
+            <th scope="col">Mon-Fri</th>
+            <th scope="col">Sat-Sun</th>
+            <th scope="col">Holiday Hours</th>
+          </tr>
+        </thead>
+      </table>
+    <div class="xs-1 s-1 m-1-3 gutter inline-block pad-b">
+      <form method="POST" action="http://formspree.io/jordana.cardinal@gmail.com">
+        <fieldset>
+          <legend class="bold">Tell us your experience!</legend>
+        <div class="pad-b grid">
+          <div class="pad-top-half xs-1 unit">
+            <label for="name">
+              <span>Name</span>
+            </label>
+            <input type="text" id="name" placeholder="First Last">
+          </div>
+          <div class="pad-top-half xs-1 unit max-width">
+            <label for="email">
+              <span class="max-width">Email</span>
+            </label>
+            <input class="max-width" id="email" type="email" name="email" placeholder="johndoe@email.com">
+          </div>
+          <div class="pad-top-half xs-1 unit">
+            <label class="pad-b-1-2" for="details">How'd we do today?</label>
+            <textarea class="pad-t-1-4" id="details" name="message"></textarea>
+          </div>
+          <div class="center pad-top-half xs-1 unit">
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </div>
+      </fieldset>
+      </form>
+      <div class="xs-1 s-1 m-1-3 l-1-3 gutter valign-top">
+        <p class="push-0">156 Sweetsdale Ave</p>
+        <p class="push-0">613-222-2202</p>
+        <p>beausbonbons@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
