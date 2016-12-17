@@ -116,6 +116,13 @@ button {
   margin: 0 auto;
 }
 
+footer p {
+  background-image: url("../images/candy.svg");
+  background-repeat: no-repeat;
+  background-position: 280px;
+  background-size: 22px;
+}
+
 @media only screen and (min-width: 38em) {
 
   h1 {
