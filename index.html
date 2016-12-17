@@ -62,26 +62,26 @@
   </main>
   <footer class="yellow" role="contentinfo">
     <h2 id="contact" class="pad-t exa">Contact Us</h2>
-    <div class="xs-1 s-1 m-1-3 gutter inline-block pad-b">
+    <div class="xs-1 s-1 m-1 gutter inline-block pad-b">
       <form method="POST" action="http://formspree.io/jordana.cardinal@gmail.com">
         <fieldset>
           <legend class="bold giga">Tell us your experience!</legend>
           <div class="pad-b grid">
-            <div class="pad-t xs-1 unit">
+            <div class="pad-t xs-1 unit max-">
               <label for="name">
                 <span class="bold milli">Name</span>
               </label>
-              <input type="text" id="name" placeholder="First Last">
+              <input class="max-length"  type="text" id="name" placeholder="First Last">
             </div>
             <div class="pad-t xs-1 unit">
               <label for="email">
                 <span class="bold milli">Email</span>
               </label>
-              <input id="email" type="email" name="email" placeholder="johndoe@email.com">
+              <input class="max-length" id="email" type="email" name="email" placeholder="johndoe@email.com">
             </div>
             <div class="pad-t xs-1 unit">
               <label class="bold milli" for="details">How'd we do today?</label>
-              <textarea class="pad-t-1-4" id="details" name="message"></textarea>
+              <textarea class="pad-t-1-4 max-length" id="details" name="message"></textarea>
             </div>
             <div class="center pad-top-half xs-1 unit">
               <button class="btn" type="submit">Submit</button>
@@ -89,12 +89,16 @@
           </div>
         </fieldset>
       </form>
+    </div>
+    <div>
       <div class="xs-1 s-1 m-1-3 l-1-3 gutter valign-top">
         <p class="push-0">156 Sweetsdale Ave</p>
         <p class="push-0">613-222-2202</p>
         <p>beausbonbons@gmail.com</p>
       </div>
     </div>
+    <div>
+      <p class="">
   </footer>
 </body>
 </html>

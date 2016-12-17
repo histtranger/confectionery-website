@@ -85,28 +85,27 @@ ul {
   max-width: 250px;
 }
 
-thead {
-  display: none;
+.max-length {
+  width: 100%;
 }
 
-table {
-  max-width: 250px;
+form {
+  max-width: 30em;
+  margin: 0 auto;
 }
 
-caption {
-  color: #00b3b3;
-  font-style: normal;
-  text-align: center;
+input {
+  max-width: 30em;
+  width: 100%;
 }
 
 span {
-  padding-right: 4em;
+  width: 100%;
 }
 
 textarea {
   width: 275px;
 }
-
 
 fieldset {
   border: none;
