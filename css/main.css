@@ -8,10 +8,10 @@ body {
 }
 
 .skip-links {
-  display: hidden;
+  display: none;
 }
 
-ul li {
+nav li {
   list-style: none;
   display: inline-block;
   text-align: center;
@@ -20,6 +20,10 @@ ul li {
 header {
   background-color: #42324c;
   padding: 0;
+}
+
+header img {
+  max-width: 25px;
 }
 
 h1 {
@@ -120,9 +124,17 @@ footer p {
   background-size: 22px;
 }
 
+.max-x {
+  height: 2em;
+}
+
 @media only screen and (min-width: 38em) {
 
   h1 {
     float: left;
+  }
+
+  nav ul {
+    float: right;
   }
 }
