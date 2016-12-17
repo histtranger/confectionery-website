@@ -21,7 +21,7 @@
     <div class="grid grid-middle">
       <h1 class="unit pad-t xs-1 s-1 m-1-3">Beau's Bonbons</h1>
       <nav class="xs-1 s-1 m-1-2" role="navigation" id="nav">
-        <ul class="pad-b right pad-t list-group">
+        <ul class="pad-b pad-t list-group center">
           <li class="unit mega gutter-half"><a href="#about">About Us</a></li>
           <li class="unit mega gutter-half"><a href="#sweets">Sweets</a></li>
           <li class="unit mega gutter-half"><a href="#contact">Contact Us</a></li>
@@ -67,7 +67,7 @@
     <section>
       <h2 id="contact" class="pad-t exa">Contact Us</h2>
       <div class="xs-1 s-1 m-1 gutter inline-block pad-b">
-        <form method="POST" action="http://formspree.io/jordana.cardinal@gmail.com">
+        <form action="https://formspree.io/jordana.cardinal@gmail.com" method="POST">
           <fieldset>
             <legend class="bold giga push-none">Tell us your experience!</legend>
             <div class="pad-b grid">
@@ -90,6 +90,7 @@
               <div class="center pad-top-half xs-1 unit">
                 <button class="btn" type="submit">Submit</button>
               </div>
+              <input type="hidden" name="_subject" value="Send Us Feedback!">
             </div>
           </fieldset>
         </form>
